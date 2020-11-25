@@ -22,7 +22,7 @@ namespace DEV_HOME_WF_26032018
         private void Form1_Load(object sender, EventArgs e)
         {
             Random rand = new Random();
-            int max = 2000;
+            int max = 3400;
             int min = 1;
             number = rand.Next(min, max);
             DialogResult result = DialogResult.No;
