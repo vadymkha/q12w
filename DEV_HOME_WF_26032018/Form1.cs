@@ -46,5 +46,10 @@ namespace DEV_HOME_WF_26032018
             MessageBox.Show($"Отгаданое число:{number}", "Число", MessageBoxButtons.OK, MessageBoxIcon.Information);
             Environment.Exit(0);
         }
+
+        private void button1_Click(object sender, EventArgs e)
+        {
+            MessageBox.Show("kdfgfdkjgk");
+        }
     }
 }
